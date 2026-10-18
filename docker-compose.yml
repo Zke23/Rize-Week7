@@ -1,3 +1,7 @@
+
+
+## Port 5001 was used by my macs airplay service, so i changed to port 5001.
+
 version: '3.8'
 
 services:

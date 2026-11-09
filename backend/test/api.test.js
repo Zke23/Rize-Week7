@@ -129,7 +129,7 @@ describe('Recipe API Tests', () => {
     test('should return health status', async () => {
       const response = await request(app)
         .get('/api/health')
-        .expect(500);
+        .expect(200);
 
       expect(response.body).toHaveProperty('status', 'healthy');
       expect(response.body).toHaveProperty('timestamp');
